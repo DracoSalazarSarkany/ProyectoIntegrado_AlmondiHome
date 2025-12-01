@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_principal"
+    app:startDestination="@id/fragment_pagina_principal">
+
+    <!-- Fragmento de la página principal con la lista de pisos -->
+    <fragment
+        android:id="@+id/fragment_pagina_principal"
+        android:name="com.example.interfaces1_2trimestre.Fragment_pagina_principal"
+        android:label="Página Principal"
+        tools:layout="@layout/fragment_pagina_principal">
+        <!-- Acción para navegar a los detalles del piso -->
+        <action
+            android:id="@+id/action_fragment_pagina_principal_to_fragment_detalles_piso"
+            app:destination="@id/fragment_detalles_piso" />
+        <action
+            android:id="@+id/action_fragment_pagina_principal_to_fragment_usuario_perfil"
+            app:destination="@id/fragment_usuario_perfil" />
+        <action
+            android:id="@+id/action_fragment_pagina_principal_to_fragment_aniadir_piso"
+            app:destination="@id/fragment_aniadir_piso" />
+    </fragment>
+
+    <!-- Fragmento de usuario perfil -->
+    <fragment
+        android:id="@+id/fragment_usuario_perfil"
+        android:name="com.example.interfaces1_2trimestre.Fragment_usuario_perfil"
+        android:label="Perfil de Usuario"
+        tools:layout="@layout/fragment_usuario_perfil">
+        <!-- Acciones a otros fragmentos desde el perfil -->
+        <action
+            android:id="@+id/action_fragment_usuario_perfil_to_Fragment_aniadir_piso"
+            app:destination="@id/fragment_aniadir_piso" />
+        <action
+            android:id="@+id/action_fragment_usuario_perfil_to_Fragment_suscripciones"
+            app:destination="@id/fragment_suscripciones" />
+        <action
+            android:id="@+id/action_fragment_usuario_perfil_to_Fragment_ajustes"
+            app:destination="@id/fragment_ajustes" />
+        <action
+            android:id="@+id/action_fragment_usuario_perfil_to_Fragment_editar_perfil"
+            app:destination="@id/fragment_editar_perfil" />
+        <action
+            android:id="@+id/action_fragment_usuario_perfil_to_Fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+
+    <!-- Fragmento de ajustes -->
+    <fragment
+        android:id="@+id/fragment_ajustes"
+        android:name="com.example.interfaces1_2trimestre.Fragment_ajustes"
+        android:label="Ajustes"
+        tools:layout="@layout/fragment_ajustes">
+    <!--
+    <action
+        android:id="@+id/action_fragment_ajustes_to_Fragment_favoritos"
+        app:destination="@id/fragment_favoritos" />
+    <action
+        android:id="@+id/action_fragment_ajustes_to_Fragment_idioma"
+        app:destination="@id/fragment_idioma" />
+    <action
+        android:id="@+id/action_fragment_ajustes_to_Fragment_notificaciones"
+        app:destination="@id/fragment_notificaciones" /> -->
+
+        <action
+            android:id="@+id/action_fragment_ajustes_to_fragment_chat"
+            app:destination="@id/fragment_chat" />
+        <action
+            android:id="@+id/action_fragment_ajustes_to_fragment_favoritos"
+            app:destination="@id/fragment_favoritos" />
+    </fragment>
+
+<!-- Fragmento de añadir piso -->
+    <fragment
+        android:id="@+id/fragment_aniadir_piso"
+        android:name="com.example.interfaces1_2trimestre.Fragment_aniadir_piso"
+        android:label="Añadir Piso"
+        tools:layout="@layout/fragment_aniadir_piso" >
+        <action
+            android:id="@+id/action_fragment_aniadir_piso_to_fragment_preguntas"
+            app:destination="@id/fragment_preguntas" />
+    </fragment>
+
+    <!-- Fragmento de detalles del piso -->
+    <fragment
+        android:id="@+id/fragment_detalles_piso"
+        android:name="com.example.interfaces1_2trimestre.Fragment_detalles_piso"
+        android:label="Detalles del Piso"
+        tools:layout="@layout/fragment_detalles_piso" >
+        <action
+            android:id="@+id/action_fragment_detalles_piso_to_fragment_resena"
+            app:destination="@id/fragment_resena" />
+        <action
+            android:id="@+id/action_fragment_detalles_piso_to_fragment_preguntas"
+            app:destination="@id/fragment_preguntas" />
+    </fragment>
+
+    <!-- Fragmento de editar perfil -->
+    <fragment
+        android:id="@+id/fragment_editar_perfil"
+        android:name="com.example.interfaces1_2trimestre.Fragment_editar_perfil"
+        android:label="Editar Perfil"
+        tools:layout="@layout/fragment_editar_perfil" />
+
+    <!-- Fragmento de login -->
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.interfaces1_2trimestre.Fragment_login"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_register"
+            app:destination="@id/fragment_register" />
+    </fragment>
+
+    <!-- Fragmento de registro -->
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.example.interfaces1_2trimestre.Fragment_register"
+        android:label="Registro"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragment_register_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+
+    <!-- Fragmento de suscripciones -->
+    <fragment
+        android:id="@+id/fragment_suscripciones"
+        android:name="com.example.interfaces1_2trimestre.Fragment_suscripciones"
+        android:label="Suscripciones"
+        tools:layout="@layout/suscripciones" />
+
+    <!-- Fragmento de preguntas -->
+    <fragment
+        android:id="@+id/fragment_preguntas"
+        android:name="com.example.interfaces1_2trimestre.Fragment_preguntas"
+        android:label="Preguntas"
+        tools:layout="@layout/fragment_preguntas" >
+        <action
+            android:id="@+id/action_fragment_preguntas_to_fragment_detalles_piso"
+            app:destination="@id/fragment_detalles_piso" />
+        <action
+            android:id="@+id/action_fragment_preguntas_to_fragment_resena"
+            app:destination="@id/fragment_resena" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_chat"
+        android:name="com.example.interfaces1_2trimestre.Fragment_chat"
+        android:label="Fragment_chat" />
+    <fragment
+        android:id="@+id/fragment_resena"
+        android:name="com.example.interfaces1_2trimestre.Fragment_resena"
+        android:label="fragment_resena"
+        tools:layout="@layout/fragment_resena" >
+        <action
+            android:id="@+id/action_fragment_resena_to_fragment_detalles_piso"
+            app:destination="@id/fragment_detalles_piso" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_favoritos"
+        android:name="com.example.interfaces1_2trimestre.Fragment_favoritos"
+        android:label="fragment_favoritos"
+        tools:layout="@layout/fragment_favoritos" >
+        <action
+            android:id="@+id/action_fragment_favoritos_to_fragment_detalles_piso"
+            app:destination="@id/fragment_detalles_piso" />
+    </fragment>
+
+    <!-- Fragmento de favoritos
+    <fragment
+        android:id="@+id/fragment_favoritos"
+        android:name="com.example.interfaces1_2trimestre.Fragment_favoritos"
+        android:label="Favoritos"
+        tools:layout="@layout/fragment_favoritos" /> -->
+
+    <!-- Fragmento de idioma
+    <fragment
+        android:id="@+id/fragment_idioma"
+        android:name="com.example.interfaces1_2trimestre.Fragment_idioma"
+        android:label="Idioma"
+        tools:layout="@layout/fragment_idioma" /> -->
+
+    <!-- Fragmento de notificaciones
+    <fragment
+        android:id="@+id/fragment_notificaciones"
+        android:name="com.example.interfaces1_2trimestre.Fragment_notificaciones"
+        android:label="Notificaciones"
+        tools:layout="@layout/fragment_notificaciones" /> -->
+
+
+
+</navigation>

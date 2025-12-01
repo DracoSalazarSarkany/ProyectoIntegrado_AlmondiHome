@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_content_view_loguin">
+
+    <fragment
+        android:id="@+id/fragment_content_view_loguin"
+        android:name="com.example.interfaces1_2trimestre.Fragment_login"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_content_view_loguin_to_fragment_register"
+            app:destination="@id/fragment_register" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_formulario_registro"
+        android:name="com.example.interfaces1_2trimestre.Fragment_formulario_registro"
+        android:label="Fragment_formulario_registro">
+        <action
+            android:id="@+id/action_fragment_formulario_registro_to_fragment_content_view_loguin"
+            app:destination="@id/fragment_content_view_loguin" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.example.interfaces1_2trimestre.Fragment_register"
+        android:label="fragment_register" >
+        <action
+            android:id="@+id/action_fragment_register_to_fragment_content_view_loguin"
+            app:destination="@id/fragment_content_view_loguin" />
+        <action
+            android:id="@+id/action_fragment_register_to_fragment_formulario_registro"
+            app:destination="@id/fragment_formulario_registro" />
+    </fragment>
+
+</navigation>

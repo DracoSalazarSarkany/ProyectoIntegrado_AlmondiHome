@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Interfaces1_2trimestre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Generales -->
+    <string name="menu">AlmondiHome</string>
+    <string name="btnpublicar">Veröffentlichen</string>
+    <string name="email">E-Mail</string>
+    <string name="registrarse">Registrieren</string>
+    <string name="password">Passwort</string>
+
+    <!-- fragment_ajustes -->
+    <string name="favoritos">Favoriten</string>
+    <string name="idioma">Sprachen</string>
+    <string name="ayuda">Hilfe</string>
+    <string name="notificaciones">Benachrichtigungen</string>
+
+    <!-- fragment_aniadir_piso -->
+    <string name="ciudad">Stadt:</string>
+    <string name="direccion">Adresse:</string>
+    <string name="numero">Nummer:</string>
+    <string name="codigopostal">Postleitzahl:</string>
+    <string name="descripccion">Beschreibung:</string>
+
+    <!-- fragment_chat -->
+    <string name="chat">Schreibe eine Nachricht...</string>
+
+    <!-- fragment_editar_perfil -->
+    <string name="nombre">Name:</string>
+    <string name="editnombre">Gib deinen Namen ein:</string>
+    <string name="ciudadactual">Aktuelle Stadt:</string>
+    <string name="editciudadactual">Gib deine Stadt ein</string>
+    <string name="sitioweb">Webseite:</string>
+    <string name="editweb">Gib deine Webseite ein</string>
+    <string name="sobreti">Über dich:</string>
+    <string name="editsobreti">Schreibe etwas über dich</string>
+
+    <!-- fragment_formulario_registro -->
+    <string name="nombreUsuario">Benutzername</string>
+    <string name="nombreCompleto">Vollständiger Name</string>
+    <string name="localidad">Ort</string>
+    <string name="pais">Land</string>
+
+    <!-- fragment_login -->
+    <string name="login">Anmelden</string>
+    <string name="recordar">Passwort merken</string>
+    <string name="nocuenta">Ich habe kein Konto</string>
+
+    <!-- fragment_pagina_principal -->
+    <string name="buscador">Suche...</string>
+    <string name="btnanadirpiso">Wohnung hinzufügen</string>
+
+    <!-- fragment_preguntas -->
+    <string name="pregunta1">Sind Wände und Decken in gutem Zustand?</string>
+    <string name="pregunta2">Sind die Böden in gutem Zustand?</string>
+    <string name="pregunta3">Schließen Fenster und Türen richtig?</string>
+    <string name="pregunta4">Ist die Wärme- und Schalldämmung ausreichend?</string>
+    <string name="pregunta5">Ist der Anstrich in gutem Zustand?</string>
+    <string name="pregunta6">Funktioniert die Elektroinstallation einwandfrei?</string>
+    <string name="pregunta7">Hat das Wasser guten Druck und Temperatur?</string>
+    <string name="pregunta8">Ist das Gas ordnungsgemäß installiert und geprüft?</string>
+    <string name="pregunta9">Funktionieren die Haushaltsgeräte gut?</string>
+    <string name="pregunta10">Funktionieren Heizung und Klimaanlage?</string>
+    <string name="pregunta11">Sind die Möbel in gutem Zustand?</string>
+    <string name="pregunta12">Sind Matratzen und Sofas sauber und bequem?</string>
+    <string name="pregunta13">Sind Eingangsbereich und Treppenhaus in gutem Zustand?</string>
+    <string name="pregunta14">Funktioniert der Aufzug einwandfrei?</string>
+    <string name="pregunta15">Sind Abstellraum oder Garage zugänglich?</string>
+    <string name="pregunta16">Ist der Briefkasten zugänglich und funktional?</string>
+    <string name="pregunta17">Ist der Vertrag klar und vollständig?</string>
+    <string name="pregunta18">Sind die enthaltenen Kosten klar angegeben?</string>
+    <string name="pregunta19">Gibt es ein Energieeffizienzzertifikat?</string>
+    <string name="pregunta20">Gibt es klare Hausregeln?</string>
+    <string name="pregunta21">Ist eine Anmeldung beim Einwohnermeldeamt erlaubt?</string>
+
+    <!-- fragment_register -->
+    <string name="reppass">Passwort wiederholen</string>
+    <string name="terminos">Ich habe die Geschäftsbedingungen gelesen</string>
+    <string name="tengocuenta">Ich habe bereits ein Konto</string>
+    <string name="miembro">Ich habe kein Konto</string>
+
+    <!-- fragment_usuario_perfil -->
+    <string name="anadirpiso">Wohnung hinzufügen</string>
+    <string name="suscripciones">Abonnements</string>
+    <string name="ajustes">Einstellungen</string>
+    <string name="editperfil">Profil bearbeiten</string>
+    <string name="cerrar">Abmelden</string>
+
+    <!-- item_piso -->
+    <string name="itemdireccion">Adresse</string>
+
+    <!-- item_resena -->
+    <string name="nombreUser">Benutzer</string>
+    <string name="resena">Nutzerbewertung</string>
+
+    <!--Fragment_resena-->
+    <string name="escribeResena">Bewerte diese Immobilie</string>
+    <string name="descripcionResena">Optional: Beschreibe deine Erfahrung</string>
+
+    <!-- Wohnung hinzufügen -->
+    <string name="hello_blank_fragment">Hallo leerer Abschnitt</string>
+
+    <string name="descripcion1">Beschreibung:</string>
+    <string name="descripcion2">Beschreibung:</string>
+    <string name="descripcion3">Beschreibung:</string>
+    <string name="descripcion4">Beschreibung:</string>
+    <string name="descripcion5">Beschreibung:</string>
+    <string name="descripcion6">Beschreibung:</string>
+    <string name="descripcion7">Beschreibung:</string>
+    <string name="descripcion8">Beschreibung:</string>
+    <string name="descripcion9">Beschreibung:</string>
+    <string name="descripcion10">Beschreibung:</string>
+    <string name="favoritosTexto">Favoriten</string>
+    <string name="idiomaTexto">Sprache</string>
+    <string name="notificacionesTexto">Benachrichtigungen</string>
+    <string name="titulo">Titel:</string>
+    <string name="precio">Preis:</string>
+
+    <!-- Login und Registrierung -->
+    <string name="escribeContrasena">Passwort eingeben</string>
+    <string name="repiteContrasena">Passwort wiederholen</string>
+
+
+</resources>

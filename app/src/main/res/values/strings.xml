@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">Interfaces1_2trimestre</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Generales -->
+    <string name="menu">AlmondiHome</string>
+    <string name="btnpublicar">Publicar</string>
+    <string name="email">Email</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="password">Contraseña</string>
+
+    <!-- fragment_ajustes -->
+    <string name="favoritos">Favoritos</string>
+    <string name="idioma">Idiomas</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="notificaciones">Notificaciones</string>
+
+    <!--fragment_aniadir_piso-->
+    <string name="ciudad">Ciudad:</string>
+    <string name="direccion">Direción:</string>
+    <string name="numero">Número:</string>
+    <string name="codigopostal">Código postal:</string>
+    <string name="descripccion">Descripcción:</string>
+
+    <!--fragment_chat-->
+    <string name="chat">Escribe un mensaje...</string>
+
+    <!--fragment_editar_perfil-->
+    <string name="nombre">Nombre:</string>
+    <string name="editnombre">Introduce tu nombre:</string>
+    <string name="ciudadactual">Ciudad actual:</string>
+    <string name="editciudadactual">Introduce tu ciudad</string>
+    <string name="sitioweb">Sitio web:</string>
+    <string name="editweb">Introduce tu sitio web</string>
+    <string name="sobreti">Sobre ti:</string>
+    <string name="editsobreti">Escribe algo sobre ti</string>
+
+    <!--fragment_formulario_registro-->
+    <string name="nombreUsuario">Nombre de usuario</string>
+    <string name="nombreCompleto">Nombre completo</string>
+    <string name="localidad">Localidad</string>
+    <string name="pais">Pais</string>
+
+    <!--fragment_login-->
+    <string name="login">Iniciar sesión</string>
+    <string name="recordar">Recordar contraseña</string>
+    <string name="nocuenta">No tengo cuenta</string>
+
+    <!--fragment_pagina_principal-->
+    <string name="buscador">Buscador...</string>
+    <string name="btnanadirpiso">Añadir piso</string>
+
+    <!--fragment_preguntas-->
+    <string name="pregunta1">¿Las paredes y techos están en buen estado?</string>
+    <string name="pregunta2">¿Los suelos están en buen estado?</string>
+    <string name="pregunta3">¿Ventanas y puertas cierran bien?</string>
+    <string name="pregunta4">¿El aislamiento térmico y acústico es adecuado?</string>
+    <string name="pregunta5">¿La pintura está en buen estado?</string>
+    <string name="pregunta6">¿La instalación eléctrica funciona correctamente?</string>
+    <string name="pregunta7">¿El agua tiene buena presión y temperatura?</string>
+    <string name="pregunta8">¿El gas está bien instalado y revisado?</string>
+    <string name="pregunta9">¿Los electrodomésticos funcionan bien?</string>
+    <string name="pregunta10">¿La calefacción y el aire acondicionado funcionan?</string>
+    <string name="pregunta11">¿Los muebles están en buen estado?</string>
+    <string name="pregunta12">¿Colchones y sofás están limpios y cómodos?</string>
+    <string name="pregunta13">¿El portal y escaleras están en buen estado?</string>
+    <string name="pregunta14">¿El ascensor funciona correctamente?</string>
+    <string name="pregunta15">¿El trastero o garaje están accesibles?</string>
+    <string name="pregunta16">¿El buzón es accesible y funcional?</string>
+    <string name="pregunta17">¿El contrato está claro y completo?</string>
+    <string name="pregunta18">¿Se especifican bien los gastos incluidos?</string>
+    <string name="pregunta19">¿Tiene certificado de eficiencia energética?</string>
+    <string name="pregunta20">¿Existen normas de convivencia claras?</string>
+    <string name="pregunta21">¿Permiten empadronarse?</string>
+
+    <!--fragment_register-->
+    <string name="reppass">Repetir contraseña</string>
+    <string name="terminos">He leído los terminos y condiciones</string>
+    <string name="tengocuenta">Ya tengo cuenta</string>
+    <string name="miembro">No tengo una cuenta</string>
+
+    <!--fragment_usuario_perfil-->
+    <string name="anadirpiso">Añadir piso</string>
+    <string name="suscripciones">Suscripciones</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="editperfil">Editar perfil</string>
+    <string name="cerrar">Cerrar sesión</string>
+
+    <!--item_piso-->
+    <string name="itemdireccion">Dirección</string>
+
+    <!--item_resena-->
+    <string name="nombreUser">Usuario</string>
+    <string name="resena">Reseña usuario</string>
+
+    <!--Idiomas-->
+    <string-array name="idiomas_array">
+        <item>Español</item>
+        <item>English</item>
+        <item>French</item>
+        <item>German</item>
+    </string-array>
+
+
+    <!--Fragment_resena y detalles piso-->
+    <string name="escribeResena">Valora este inmueble</string>
+    <string name="descripcionResena">Opcional: describe tu experiencia</string>
+
+    <!---->
+    <!---->
+    <!---->
+    <!---->
+
+
+    <!-- Relativo a aniadirpiso-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="descripcion1">Descripción:</string>
+    <string name="descripcion2">Descripción:</string>
+    <string name="descripcion3">Descripción:</string>
+    <string name="descripcion4">Descripción:</string>
+    <string name="descripcion5">Descripción:</string>
+    <string name="descripcion6">Descripción:</string>
+    <string name="descripcion7">Descripción:</string>
+    <string name="descripcion8">Descripción:</string>
+    <string name="descripcion9">Descripción:</string>
+    <string name="descripcion10">Descripción:</string>
+    <string name="favoritosTexto">Favoritos</string>
+    <string name="idiomaTexto">Idioma</string>
+    <string name="notificacionesTexto">Notificaciones</string>
+    <string name="titulo">Título:</string>
+    <string name="precio">Precio:</string>
+
+    <!-- Strings relativo a login -->
+
+
+    <!-- Strings relativo al register -->
+    <string name="escribeContrasena">Escribe contraseña</string>
+    <string name="repiteContrasena">Repetir contraseña</string>
+
+
+</resources>

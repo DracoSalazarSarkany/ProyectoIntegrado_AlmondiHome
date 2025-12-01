@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "680462846217",
+    "firebase_url": "https://tfg-almondiware-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tfg-almondiware",
+    "storage_bucket": "tfg-almondiware.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680462846217:android:4121823909844fcc6a2bd8",
+        "android_client_info": {
+          "package_name": "com.example.interfaces1_2trimestre"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAO4ByYbEPnAd26fGYoeHl0w8w1VAaSkj0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

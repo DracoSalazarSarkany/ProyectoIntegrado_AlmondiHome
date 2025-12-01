@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_detalles_piso"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ViewPager para las imágenes (fijo arriba) -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager_imagenes"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Contenedor con ConstraintLayout para RatingBar y Texto a la derecha -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <RatingBar
+            android:id="@+id/rating_bar_piso_principal"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+        <TextView
+            android:id="@+id/text_mostrar_en_maps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mostrar en Google Maps"
+            android:textColor="@color/azul"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/rating_bar_piso_principal"
+            app:layout_constraintBottom_toBottomOf="@id/rating_bar_piso_principal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Dirección -->
+    <TextView
+        android:id="@+id/text_direccion_piso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección del piso"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- "Escribir una reseña" -->
+    <TextView
+        android:id="@+id/text_escribir_resena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:text="@string/escribeResena"
+        android:textColor="@color/azul"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <!-- RecyclerView para las reseñas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_resenas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:nestedScrollingEnabled="false" />
+
+</LinearLayout>
